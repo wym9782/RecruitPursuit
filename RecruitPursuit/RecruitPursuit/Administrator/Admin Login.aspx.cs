@@ -33,7 +33,7 @@ public partial class Administrator_Admin_Login : System.Web.UI.Page
 
                 if(username == password)
                 {
-                    Response.Redirect("/Default.aspx");
+                    Response.Redirect("Admin Home.aspx");
                 }
                 else
                 {

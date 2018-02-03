@@ -35,7 +35,7 @@ public partial class User_User_Login : System.Web.UI.Page
 
                 if(username == password)
                 {
-                    Response.Redirect("/Default.aspx");
+                    Response.Redirect("/Administrator/Admin Login.aspx");
                 }
                 else
                 {
